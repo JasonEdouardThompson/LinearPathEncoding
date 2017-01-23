@@ -1,0 +1,70 @@
+.visual_index{
+	float: left;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: justify;
+    font-size: smaller;
+}
+
+.keys{
+	float: left;
+}
+.meta{
+	font-size: small;
+}
+.comments{
+	float: left;
+	width: 400px;
+	height: 400px;
+	overflow:scroll;
+	padding-right: 15px;
+}
+
+.tooltip {
+	position:absolute;
+	background:#F0F0FA;
+	padding:20px;
+	
+	-webkit-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.50);
+	box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.50);
+
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px; /* future proofing */
+	-khtml-border-radius: 10px; /* for old Konqueror browsers */
+    
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+li {
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+ul { 
+	margin-left: 0px;
+	padding-left: 15px;
+}
+
+g[type='transfer'] {
+	cursor: pointer;
+}
+
+.single-comment {
+	cursor: pointer;
+}
+
+.single-comment:hover {
+	background: #F0F0FA;
+} 
+
+.selected-comment {	
+	background-color:#FFE9BF;
+}
+
+.read-comment {
+	color: lightgray;
+}
+
+.leading-image {
+	clear: left;
+}

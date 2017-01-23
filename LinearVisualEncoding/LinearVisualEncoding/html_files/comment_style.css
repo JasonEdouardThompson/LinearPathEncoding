@@ -1,0 +1,56 @@
+.visual_index{
+	float: left;
+}
+
+.keys{
+	float: left;
+}
+.meta{
+	font-size: small;
+}
+.comments{
+	float: left;
+	width: 400px;
+	height: 400px;
+	overflow:scroll;
+	padding-right: 15px;
+}
+
+li {
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+ul { 
+	margin-left: 0px;
+	padding-left: 15px;
+}
+
+* {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: justify;
+}
+
+g[type='transfer'] {
+	cursor: pointer;
+}
+
+.single-comment {
+	cursor: pointer;
+}
+
+.single-comment:hover {
+	background: #F0F0FA;
+} 
+
+.selected-comment {	
+	background-color:#FFE9BF;
+}
+
+.read-comment {
+	color: lightgray;
+}
+
+.leading-image {
+	clear: left;
+}
